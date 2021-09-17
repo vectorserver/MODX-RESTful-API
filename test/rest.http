@@ -1,0 +1,14 @@
+POST http://modxlocal.ru/rest/resources
+Content-Type: application/json
+
+{
+  "pagetile": "1212121",
+  "template": 4,
+  "parent": 2
+}
+
+###
+GET http://modxlocal.ru/rest/resources
+Accept: application/json
+
+###
